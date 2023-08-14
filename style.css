@@ -1,37 +1,126 @@
 
-header{
-    padding: 10px;
+*{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    }
-
-nav{
-    padding: 10px;
-    
 }
+
+h1{
+    font-size: 50px;
+    background-image: url(design1_image1.jpg);
+    margin: 0;
+    padding: 0;
+    width: 1000px;
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+}
+
 
 a{
     color: blue;
+    margin-top: 25px;
 }
 
 section{
     padding: 20px;
 }
 
-h2{
+h2 {
+    
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    border: 0.5px solid white;
     color: white;
     background-color: black;
-    font-style: oblique;
-    
-}h3{
+    width: 1000px;
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+
+}
+
+#Logo1{
+    display: inline-block;
+    margin-left: 800px;
+    border: 1px solid black;
+    position: relative;
+    bottom: 70px;
+    background: white;
+}
+
+h1{
+    position: relative;
+    top: 20px;
+}
+
+h3{
     font-style: italic;
     }
 
-.p{
+p{
     
-    padding: 1px;
+    padding: 10px;
     
 }
 
 span{
     color: blue;
+}
+
+#home1{
+    color: black;
+}
+
+#about1{
+    color: black;
+}
+
+#contact1{
+    color: black;
+
+}
+
+.navegacion{ 
+    margin: 0px;
+    margin-left: 20px;
+    position: relative;
+    bottom: 120px;
+    
+  
+
+}
+#conteiner1{
+
+    margin: 0px;
+    bottom: -10px;
+    left: 300px;
+    position: absolute;
+    text-align: left;
+
+}
+
+#conteiner2{
+
+    margin: 0px;
+    top: 420px;
+    left: 300px;
+    position: absolute;
+    text-align: left;
+    margin-right: 400px;
+    text-indent: 20px;
+    box-sizing: border-box;
+
+}
+
+#conteiner3{
+
+    margin: 0px;
+    top: 410px;
+    left: 300px;
+    position: absolute;
+    text-align: left;
+    box-sizing: border-box;
+   
 }
