@@ -43,7 +43,7 @@ h2 {
 
 #Logo1{
     display: inline-block;
-    margin-left: 800px;
+    margin-left: 870px;
     border: 1px solid black;
     position: relative;
     bottom: 70px;
@@ -123,4 +123,41 @@ span{
     text-align: left;
     box-sizing: border-box;
    
+}
+
+.listas{
+    
+    margin: 0px;
+    padding: 20px;
+    top: 410px;
+    left: 300px;
+    position: absolute;
+    text-align: left;
+    box-sizing: border-box;
+    width: 700px;
+    
+}
+
+.lista2{
+    list-style-type:lower-latin;
+    
+}
+
+#sangria1{
+    text-indent: 20px;
+}
+
+#parrafo{
+    text-indent: 20px;
+}
+
+.lista3{
+    list-style-type:circle;
+    margin: 2px;
+    margin-left: 50px;
+        
+}
+
+#titulo1{
+    font-size: 20px;
 }
