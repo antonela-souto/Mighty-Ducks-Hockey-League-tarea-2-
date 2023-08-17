@@ -137,6 +137,7 @@ span{
     box-sizing: border-box;
     width: 700px;
     
+    
 }
 
 .lista2{
@@ -155,7 +156,7 @@ span{
 .lista3{
     list-style-type:circle;
     margin: 2px;
-    margin-left: 50px;
+    margin-left: 30px;
         
 }
 
@@ -246,8 +247,8 @@ a{
 body{
     background-color: rgb(179, 179, 179);
     min-height: 100%;
-    min-width: 50%
-    
+    min-width: 50%;
+        
 }
 
 
