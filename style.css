@@ -251,4 +251,17 @@ body{
         
 }
 
+label{
+    display: flex;
+    
+    margin: 15px;
+    flex-direction: row;
 
+}
+
+input{
+    display: flex;
+    flex-direction:row;
+    margin-left: 15px;
+}
+  
