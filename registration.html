@@ -49,35 +49,35 @@
 
     </div>
 
+    <!-- creacion del formulario -->
 
     <div>
 
-        <form action="registration.html">
+        <form id="formulario" action="registration.html">
 
 
-            <div>
-                <fieldset>
 
-                    <label>
-                        Player's First Name:
-                        <input type="text" maxlength="50" name="nombre">
-                    </label>
+            <fieldset>
 
-                    <label>
+                <label>
+                    Player's First Name:
+                    <input type="text" name="nombre">
+                </label>
 
-                        Last name:
-                        <input type="text" maxlenghth="50" name="apellido">
+                <label>
 
-                    </label>
+                    Last name:
+                    <input type="text" name="apellido">
 
-            </div>
+                </label>
+            </fieldset>
 
             <div>
                 <fieldset>
                     <label>
 
                         Street Address:
-                        <input type="text" maxlenghth="50" name="direccion">
+                        <input type="text" name="direccion">
 
                     </label>
                 </fieldset>
@@ -89,19 +89,20 @@
                     <label>
 
                         City
-                        <input type="text" maxlenghth="50" name="ciudad">
+                        <input type="text" name="ciudad">
 
                     </label>
 
                     <label>
 
                         Zip Code:
-                        <input type="text" maxlenghth="50" name="ciudad">
+                        <input type="text" name="ciudad">
 
                     </label>
 
                 </fieldset>
             </div>
+
 
 
             <div>
@@ -111,7 +112,7 @@
                     <label>
 
                         Birth Date(mm/dd/yyyy):
-                        <input type="text" maxlenghth="50" name="ciudad">
+                        <input id="fecha" type="text" name="nacimiento">
 
                     </label>
 
@@ -121,7 +122,8 @@
 
                         Female:
                         <input type="checkbox" name="genero" value="Female">
-
+                    </label>
+                    <label>
                         Male:
                         <input type="checkbox" name="genero" value="Female">
                     </label>
@@ -142,21 +144,36 @@
                     <label>
 
                         Grade:
-                        <input type="checkbox" name="escuela" value="grado">
+                        <input id="grado" type="checkbox" name="escuela" value="grado">
                         Pre-School:
-                        <input type="checkbox" name="escuela" value="grado">
-                        1st
-                        <input type="checkbox" name="escuela" value="grado">
-                        2nd
-                        <input type="checkbox" name="escuela" value="grado">
-                        3rd
-                        <input type="checkbox" name="escuela" value="grado">
-                        4th
-                        <input type="checkbox" name="escuela" value="grado">
-                        5th
-
-
                     </label>
+                    <label>
+
+                        <input type="checkbox" name="escuela" value="grado">
+                        <sup>1st</sup>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="escuela" value="grado">
+                        <sup>2nd</sup>
+                    </label>
+                    <label>
+
+                        <input type="checkbox" name="escuela" value="grado">
+                        <sup>3rd</sup>
+                    </label>
+                    <label>
+
+                        <input type="checkbox" name="escuela" value="grado">
+                        <sup>4th</sup>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="escuela" value="grado">
+                        <sup>5th</sup>
+                    </label>
+
+
+
+
                 </fieldset>
             </div>
 
@@ -166,46 +183,65 @@
             <fieldset>
 
                 <div id="encabezado1">
-                    <H3>Which elementary school do you live near?</H3>
+                    <H3 id="encaform">Which elementary school do you live near?</H3>
 
 
-                    <h4><b>Closest School:</b></h4>
-                
-
-
-
-                
-
-                    <div class="escuelas1">
-                        <label>
-                            AJ Katzenmaier
-                            <input type="checkbox" name="escuela" value="nombre">
-                            Greenbay
-                            <input type="checkbox" name="escuela" value="nombre">
-                            Howard A Yeager
-                            <input type="checkbox" name="escuela" value="nombre">
-                        </label>
-                    </div>
+                    <h3 id="encaform1"><b>Closest School:</b></h3>
 
 
 
 
-                
 
-                
-                   
 
                     <div>
-                        <label id="escuelas2">
-                            Marjorie P Hart
-                            <input type="checkbox" name="escuela" value="nombre">
 
-                            North Elementary
-                            <input type="checkbox" name="escuela" value="nombre">
+                        <div>
+                            <label id="esc1"> AJ Katzenmaier
+                                <input id="inpesc1" type="checkbox" name="escuela" value="nombre"></label>
+                            <label id="esc2">
+                                Greenbay
+                                <input id="inpesc2" type="checkbox" name="escuela" value="nombre">
+                            </label>
+                            <label id="esc3">
+                                Howard A Yeager
+                                <input id="inpesc3" type="checkbox" name="escuela" value="nombre">
 
-                            South Elementary
-                            <input type="checkbox" name="escuela" value="nombre">
-                        </label>
+                            </label>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                        <div class="posicionesc">
+
+                            <label id="esc4">
+                                Marjorie P Hart
+                                <input id="inpesc4" type="checkbox" name="escuela" value="nombre">
+                            </label>
+
+                            <label id="esc5">
+                                North Elementary
+                                <input id="inpesc5" type="checkbox" name="escuela" value="nombre">
+                            </label>
+
+                            <label id="esc6">
+                                South Elementary
+                                <input id="inpesc6" type="checkbox" name="escuela" value="nombre">
+                            </label>
+
+
+                        </div>
+
+
                     </div>
 
 
@@ -213,28 +249,182 @@
 
 
                 </div>
-                </fieldset>
             </fieldset>
+
+            <fieldset>
+
+                <div>
+                    <H3 id="encaform2">What position(s) do you normally play? (check all that apply)</H3>
+
+                    <div>
+
+                        <div>
+                            <label id="posicionjuego1">
+
+                                Forward
+                                <input id="posinp1" type="checkbox" name="posicion" value="nombre">
+
+                            </label>
+
+                            <label id="posicionjuego2">
+                                Defense
+                                <input id="posinp2" type="checkbox" name="posicion" value="nombre">
+                            </label>
+                        </div>
+
+
+                        <div class="posicionjuego">
+
+                            <label id="posicionjuego3">
+
+                                Midfield
+                                <input id="posinp3" type="checkbox" name="posicion" value="nombre">
+
+                            </label>
+                            <label id="posicionjuego4">
+                                Goalkeeper
+                                <input id="posinp4" type="checkbox" name="posicion" value="nombre">
+                            </label>
+
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+
+
+            </fieldset>
+
+            <fieldset>
+
+                <div>
+
+                    <H3 id="encaform3">Uniform Size:</H3>
+
+                    <div>
+
+                        <label id="unifortam1">
+
+                            Youth Smal
+                            <input id="inpuni1" type="checkbox" name="tamaño" value="nombre">
+                        </label>
+                        <label id="unifortam2">
+                            Youth Medium
+                            <input id="inpuni2" type="checkbox" name="tamaño" value="nombre">
+                        </label>
+                        <label id="unifortam3">
+                            Youth Large
+                            <input id="inpuni3" type="checkbox" name="tamaño" value="nombre">
+                        </label>
+                        <label id="unifortam4">
+                            Small
+                            <input id="inpuni4" type="checkbox" name="tamaño" value="nombre">
+
+                        </label>
+
+
+                    </div>
+
+                    <div class="unifortam">
+
+                        <label id="unifortam5">
+                                              
+                            Medium
+                            <input id="inpuni5" type="checkbox" name="tamaño" value="nombre">
+                        </label>
+                        <label id="unifortam6">
+                            Large
+                            <input id="inpuni6" type="checkbox" name="tamaño" value="nombre">
+                        </label>
+                        <label id="unifortam7">
+                            Extra-Large
+                            <input id="inpuni7" type="checkbox" name="tamaño" value="nombre">
+
+                        </label>
+
+                    </div>
+
+
+                </div>
+
+
+
+
+
+
+            </fieldset>
+
+
+
+
+
+
+            <fieldset>
+
+
+                <div>
+
+                    <h3 id="encaform4">Permission to Play</h3>
+                    <div>
+                        <p id="palabras">l, the parent or guardian of the minor registrant, agree that the registrant
+                            and I will abide by
+                            all
+                            the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of
+                            physical
+                            injury associated with hockey and in consideration for the "League" accepting the registrant
+                            for
+                            its
+                            hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify
+                            MDHL,
+                            their
+                            employees and associated personnel and volunteers,including the facilities used for
+                            practices
+                            and
+                            games, against any claim by or on behalf of the registrant as a result of the registrant's
+                            participation in the programand/orbeing transported to or from MDHL sponsored
+                            activities,which
+                            transportation.</p>
+                        <p id="palabras2">
+                            By signing below, I herebyagree andauthorizethe above.ln addition, by signing below, lalso
+                            acknowledge that I have read the cancellation policy and agree to its terms.
+                        </p>
+
+                    </div>
+
+
+
+
+
+                    <div class="firma">
+
+                        <label>
+                            Parent/GuardianSignature:
+                            <input type="text" name="nombre">
+                        </label>
+
+                        <label>
+
+                            Date:
+                            <input type="text" name="apellido">
+
+                        </label>
+                    </div>
+
+
+                </div>
+
+
+            </fieldset>
+        </form>
     </div>
 
 
-    </fieldset>
 
 
-
-
-
-
-
-
-
-
-    </form>
-
-
-
-
-    </div>
 
 
 </body>

@@ -1,11 +1,10 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-h1{
+h1 {
     font-size: 50px;
     background-image: url(design1_image1.jpg);
     margin: 0;
@@ -18,17 +17,17 @@ h1{
 }
 
 
-a{
+a {
     color: blue;
     margin-top: 25px;
 }
 
-section{
+section {
     padding: 20px;
 }
 
 h2 {
-    
+
     margin: 0;
     text-align: center;
     padding: 0;
@@ -42,7 +41,7 @@ h2 {
 
 }
 
-#Logo1{
+#Logo1 {
     display: inline-block;
     margin-left: 870px;
     border: 1px solid black;
@@ -51,48 +50,49 @@ h2 {
     background: white;
 }
 
-h1{
+h1 {
     position: relative;
     top: 20px;
 }
 
-h3{
+h3 {
     font-style: italic;
-    }
-
-p{
-    
-    padding: 10px;
-    
 }
 
-span{
+p {
+
+    padding: 10px;
+
+}
+
+span {
     color: blue;
 }
 
-#home1{
+#home1 {
     color: black;
 }
 
-#about1{
+#about1 {
     color: black;
 }
 
-#contact1{
+#contact1 {
     color: black;
 
 }
 
-.navegacion{ 
+.navegacion {
     margin: 0px;
     margin-left: 20px;
     position: relative;
     bottom: 120px;
-    
-  
+
+
 
 }
-#conteiner1{
+
+#conteiner1 {
 
     margin: 0px;
     bottom: -10px;
@@ -102,7 +102,7 @@ span{
 
 }
 
-#conteiner2{
+#conteiner2 {
 
     margin: 0px;
     top: 420px;
@@ -115,7 +115,7 @@ span{
 
 }
 
-#conteiner3{
+#conteiner3 {
 
     margin: 0px;
     top: 410px;
@@ -123,11 +123,11 @@ span{
     position: absolute;
     text-align: left;
     box-sizing: border-box;
-   
+
 }
 
-.listas{
-    
+.listas {
+
     margin: 0px;
     padding: 20px;
     top: 410px;
@@ -136,35 +136,35 @@ span{
     text-align: left;
     box-sizing: border-box;
     width: 700px;
-    
-    
+
+
 }
 
-.lista2{
-    list-style-type:lower-latin;
-    
+.lista2 {
+    list-style-type: lower-latin;
+
 }
 
-#sangria1{
+#sangria1 {
     text-indent: 20px;
 }
 
-#parrafo{
+#parrafo {
     text-indent: 20px;
 }
 
-.lista3{
-    list-style-type:circle;
+.lista3 {
+    list-style-type: circle;
     margin: 2px;
     margin-left: 30px;
-        
+
 }
 
-#titulo1{
+#titulo1 {
     font-size: 20px;
 }
 
-.info{
+.info {
     margin: 0px;
     padding: 20px;
     top: -25px;
@@ -173,11 +173,12 @@ span{
     text-align: left;
     box-sizing: border-box;
     width: 700px;
-     
+
 
 }
 
-.tablapr{
+
+.tablapr {
 
     margin: 0px;
     padding: 20px;
@@ -188,9 +189,11 @@ span{
     box-sizing: border-box;
     width: 700px;
     height: 350px;
-    }
+}
 
-tr, th, td{
+tr,
+th,
+td {
 
     border: 3px solid black;
     background-color: rgb(240, 245, 173);
@@ -202,9 +205,9 @@ tr, th, td{
     margin-top: 3px;
 }
 
-.contenedorp{
+.contenedorp {
 
-    
+
     margin: 0px;
     padding: 10px;
     top: 1000px;
@@ -216,18 +219,19 @@ tr, th, td{
 
 }
 
-footer{
+footer {
     margin: -12px;
     margin-top: 10px;
-    
+
 }
-#F2{
+
+#F2 {
     margin-left: 45%;
     top: 126px;
     position: absolute;
 }
 
-a{
+a {
     border: 3px solid black;
     padding: 15px;
     height: 10px;
@@ -244,67 +248,227 @@ a{
 
 }
 
-body{
+body {
     background-color: rgb(179, 179, 179);
     min-height: 100%;
     min-width: 50%;
-        
+
 }
 
-label{
+label {
     display: flex;
     height: 50px;
-    
+
     margin: 15px;
-    
+
 
 }
- iframe{
+
+iframe {
     width: 200px;
     height: 90px;
 
 }
 
-input{
-    display: flex;
-    flex-direction:row;
-    height: 20px;
-    margin-left: 30px;
-    
-}
-
-fieldset{
+input {
     display: flex;
     flex-direction: row;
-   
+    height: 20px;
+    margin-left: 20px;
+    border: 0;
+    background: none;
+    border-bottom: 2px solid black;
 
-    
 }
 
-.escuelas1{
+fieldset {
+    display: flex;
+    flex-direction: row;
     margin: 0;
     padding: 0;
+
+
+
+
+
+
+}
+
+#encaform,
+#encaform1,
+#encaform2,
+#encaform3,
+#encaform4 {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 1px;
+}
+
+#escuelas1 {
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    align-items: end;
-   
-    
-
 }
 
 
-#escuelas2{
-    margin: 0;
-    padding: 20px;
-    display: flex;
-    
-    
-}
+#escuelas2 {
 
-#encabezado1{
     display: flex;
     flex-direction: column;
-    
+
 }
-  
+
+#gradoesc {
+    position: relative;
+    margin-left: 15px;
+
+}
+
+#grado {
+    position: relative;
+    right: 17px;
+
+}
+
+
+#presc {
+    position: relative;
+    left: 20px;
+}
+
+.posicionesc {
+
+    display: inline-block;
+    position: relative;
+    left: 250px;
+    bottom: 82px;
+}
+
+#encabezado1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#esc1,
+#esc2,
+#esc3 {
+
+    margin-top: 15px;
+    height: 15px;
+
+}
+
+#esc4,
+#esc5,
+#esc6 {
+    position: relative;
+    margin-top: 15px;
+    height: 15px;
+    bottom: 21px;
+}
+
+#inpesc1,
+#inpesc2,
+#inpesc3 {
+    position: absolute;
+    left: 150px;
+
+
+
+}
+
+
+#inpesc4,
+#inpesc5,
+#inpesc6 {
+    position: absolute;
+    left: 150px;
+ 
+}
+
+.posicionjuego {
+    display: inline-block;
+    position: relative;
+    left: 250px;
+    bottom: 82px;
+}
+
+.posicionjuego{
+    position: relative;
+    left: 100px;
+    bottom: 15px;
+}
+
+#posicionjuego1, #posicionjuego2{
+    margin-top: 15px;
+    height: 15px;
+}
+
+#posicionjuego3, #posicionjuego4{
+    position: relative;
+    margin-top: 15px;
+    height: 15px;
+    bottom: 21px;
+    left: 150px;
+    bottom: 60px;
+}
+
+#posinp1, #posinp2{
+    position: absolute;
+    left: 150px;
+}
+
+#posinp3, #posinp4{
+    position: absolute;
+    left: 150px;
+}
+
+
+#unifortam1, #unifortam2, #unifortam3, #unifortam4{
+    margin-top: 15px;
+    height: 15px;
+}
+
+#unifortam5, #unifortam6, #unifortam7{
+    position: relative;
+    margin-top: 15px;
+    height: 15px;
+    left: 250px;
+    bottom: 120px;
+}
+
+#inpuni1, #inpuni2, #inpuni3, #inpuni4, #inpuni5, #inpuni6, #inpuni7{
+
+    position: absolute;
+    left: 150px;
+}
+
+#palabras {
+    text-align: justify;
+    margin: 10px;
+}
+
+#palabras2 {
+    position: relative;
+    text-align: justify;
+    margin: 10px;
+    bottom: 26px;
+
+}
+
+.firma {
+    position: relative;
+    bottom: 20px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+#formulario {
+
+    position: absolute;
+    top: 70vh;
+    width: 50%;
+    left: 23%;
+    background-color: darkgrey
+
+}
