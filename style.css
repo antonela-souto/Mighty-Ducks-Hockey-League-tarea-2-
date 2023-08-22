@@ -490,3 +490,12 @@ fieldset {
     background-color: darkgrey
 
 }
+
+#boton{
+    position: relative;
+    border: 1px solid black;
+    background-color: gold;
+    margin: 15px;
+    top: 350px;
+    right: 600px;
+}
