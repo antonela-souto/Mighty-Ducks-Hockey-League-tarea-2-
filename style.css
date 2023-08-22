@@ -176,7 +176,19 @@ span {
 
 
 }
+#dt1{
+    height: 40px;
+}
 
+#dt2{
+    height: 50px;
+}
+
+#dt3{
+    position: relative;
+    height: 100px;
+    top: 10px;
+}
 
 .tablapr {
 
@@ -219,16 +231,22 @@ td {
 
 }
 
-footer {
-    margin: -12px;
-    margin-top: 10px;
-
-}
 
 #F2 {
-    margin-left: 45%;
-    top: 126px;
-    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-left: 53%;
+    top: 854px;
+    position: relative;
+}
+
+
+#F1 {
+    display: flex;
+    flex-direction: row;
+    left: 300px;
+    top: 896px;
+    position: relative;
 }
 
 a {
